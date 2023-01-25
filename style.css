@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+/*全体を囲ってるブロック*/
+.block {
+  width: 100vw;
+  height: 100vh; /*表示デバイスの領域に合わせた高さ*/
+  /*左右上下中央等間隔*/
+  display: grid;
+  place-items: center;
+}
+
+/* 時計スタイル */
+.clock {
+  color: #daf6ff;
+  text-shadow: 0 0 20px #0085f1;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* 日付のスタイル */
+#clock-date {
+  font-size: 5vmin;
+}
+/* 時間のスタイル */
+#clock-time {
+  font-size: 25vmin;
+}
